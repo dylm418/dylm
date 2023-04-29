@@ -1,0 +1,87 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px; /* ajustez cette valeur en fonction de la hauteur souhaitée */
+  margin: 40px;
+  text-align: center;
+  column-gap: 10px; /* espace entre les colonnes */
+  column-count: 1; /* nombre de colonnes */
+}
+
+.button p {
+  margin: 0; /* annule les marges par défaut */
+}
+
+body{
+    background-color: #131416;
+}
+
+.ui form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.field {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  
+  .field input {
+    margin-left: 10px; /* ou tout autre espacement souhaité */
+  }
+  
+
+  button {
+    width: 120px;
+    height: 25px;
+    background-color: #131416;
+    border: 2px solid #5F9191;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #5F9191;
+    color: #131416;
+  }
+
+
+  .p{
+    color: #5F9191;
+  }
+  
+
+
+  
+  
+  
+  input:focus {
+    border-color: #5F9191;
+  }
+  
+  input:-webkit-autofill {
+    background-color: "#131416";
+  }
+  
+  input:valid {
+    background-color: "#131416";
+  }
+  
+  

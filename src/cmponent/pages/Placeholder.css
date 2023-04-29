@@ -1,0 +1,6 @@
+textarea::placeholder {
+    color: aliceblue;
+    font-style: italic;
+    text-align: center;
+  }
+  

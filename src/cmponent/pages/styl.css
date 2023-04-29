@@ -1,0 +1,33 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 300px;
+  }
+  
+  .item {
+    background-color:#1f1f1f;
+    border-radius:11px;
+    margin-bottom:1px;
+    margin-top:10px;
+  }
+  
+  .item-left {
+    grid-row: 1 / span 2;
+    margin-left:10px;
+  }
+  
+  .item-right {
+    position: relative;
+    margin-right:10px;
+    margin-left:10px;
+  }
+  
+  .item-right .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+  }
+  

@@ -1,0 +1,33 @@
+.list-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .list li {
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+    cursor: move;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .list li:active {
+    transform: scale(1.1);
+  }
+  
+  .list-item {
+    position: relative;
+  }
+  
+  .dragging {
+    z-index: 1;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  

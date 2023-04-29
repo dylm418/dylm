@@ -1,0 +1,39 @@
+.quiz-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: "80%";
+    min-width: "80%";
+    margin-top: 190px;
+    background-color: chocolate; 
+    margin-left: 700px;
+    margin-right: 700px;
+    border-radius: 7px;
+    border: black 4px;
+}
+  
+form {
+    width: 400px;
+    height:400px;
+    background-color: chocolate;    
+    border-radius: 7px;
+    border: black 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer-option{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    display: inline;
+    
+}
+
+
+
+  

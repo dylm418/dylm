@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    overflow: hidden; /* pour empêcher les débordements */
+  }
+  
+  .left-pane {
+    flex: 1;
+    height: 100%;
+    border-right: 2px solid black; /* ligne de démarcation */
+  }
+  
+  .right-pane {
+    flex: 1;
+    height: 100%;
+  }
+  
+
+  button{
+    appearance: none;
+    background: none;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 2px solid rgba(27, 5, 61, 0.753);
+    color: rgb(255, 255, 255);
+    padding-bottom: 4px;
+    cursor: pointer;
+    background-color: #282c34;
+    border-radius: 2px;
+    transition: all 0.15s;
+    margin: 9px;
+    border-radius: 11px;
+    font-style: italic;
+  }
+  
+  button:hover{
+    border: 2px solid rgba(150, 111, 228, 0.384);
+  }

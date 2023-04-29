@@ -1,0 +1,30 @@
+li{
+    background-color: "#555A64";
+    width: 250px;
+    height: 50px;
+    border-radius: 7px;
+}
+
+p {
+    font-family: cursive, sans-serif; /* utilise la police d'écriture cursive si possible */
+    font-size: 1.2rem; /* ajuste la taille de police selon tes préférences */
+    line-height: 1.5; /* ajuste la hauteur de ligne pour correspondre à l'espacement sur un cahier */
+    background-color: #17233b; /* ajoute un fond légèrement coloré */
+    border: 1px solid #000000; /* ajoute une bordure */
+    padding: 10px; /* ajoute un espace intérieur */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* ajoute une ombre pour donner de la profondeur */
+    border-radius: 7px;
+}
+  
+::marker {
+	content: url("https://media.discordapp.net/attachments/639324278684123136/1093928470830125248/Plan_de_travail_1.png") ' ';
+}
+
+li:nth-child(3n)::marker {
+    content: url("https://media.discordapp.net/attachments/639324278684123136/1093928470830125248/Plan_de_travail_1.png") ' ';
+}
+
+li:nth-child(3n - 1)::marker {
+    content: url("https://media.discordapp.net/attachments/639324278684123136/1093928470830125248/Plan_de_travail_1.png") ' ';
+}
+

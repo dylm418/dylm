@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+input {
+  width: 40px;
+  margin-right: 16px;
+}

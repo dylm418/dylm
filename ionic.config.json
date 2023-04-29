@@ -1,0 +1,7 @@
+{
+  "name": "dylmApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

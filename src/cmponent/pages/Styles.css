@@ -1,0 +1,513 @@
+#container9{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textarea{
+    width: 99%; min-height: 100px; border-radius: 7px; background-color: #1c1f25;
+    font-style: italic;
+    color: #fff;
+    border-radius: 11px;
+    border-color: #5F9191;
+    margin: 5px;
+  }
+  
+  #cntr9{
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  progress {
+    width: 510px;
+    height: 11px;
+  }
+  
+  .cntnr{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .inLine{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #131416;
+  }
+  
+  .container4{
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+    border-radius: 11px;
+    padding: 30px;
+    margin: 0 15px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .container4 form{
+    position: relative;
+    margin-top: 16px;
+    min-height: 610px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+  
+  .thbtn47{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  .thbtn{
+    flex-direction: row;
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  .tbtn9{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .btes{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(4px + 2vmin);
+  }
+  
+  button{
+    appearance: none;
+    background: none;
+    font-size: 17px;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: 2px solid rgba(27, 5, 61, 0.753);
+    color: rgb(255, 255, 255);
+    padding-bottom: 4px;
+    cursor: pointer;
+    background-color: #282c34;
+    border-radius: 2px;
+    transition: all 0.15s;
+    margin: 9px;
+    border-radius: 11px;
+    font-style: italic;
+  }
+  
+  button:hover{
+    border: 2px solid rgba(150, 111, 228, 0.384);
+  }
+  
+  .App {
+    background-color: #282c34;
+    width: 100%;
+    height:100%;
+  }
+  
+  p{
+    font-style: italic;
+  }
+  
+  .thTxt{
+    margin:11px;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  
+  .maincontainer{
+    position:relative;
+  } 
+  .thContn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+  } 
+  .container{
+    position:relative;
+    width: 97%;
+    height: 97%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+  }
+  
+  .perso{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #1e8c9b;
+    color:#333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+  }
+  .back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: #0a725b;
+    color:#333;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+  }
+  
+  .file2{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+  }
+  
+  .file{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 11px;
+    
+  }
+  #thtxt{
+    margin-top: 90%;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #ffffff;
+  }
+  
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  
+  
+  
+  html {
+    font-size: 18px;
+  }
+  
+  .modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem 3rem;
+    border: 3px solid black;
+    border-radius: 5px;
+    background: #464545;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  .message {
+    font-size:1.1rem;
+    margin-bottom: 1.6rem;
+    margin-top: 0;
+  }
+  .btn {
+    color:inherit;
+    font-family:inherit;
+    font-size: inherit;
+    background: #2C2D2F;
+    padding: 0.3rem 3.4rem;
+    border: 3px solid black;
+    margin-right: 2.6rem;
+    box-shadow: 0 0 0 black;
+    transition: all 0.2s;
+    border-radius:9px;
+  }
+  
+  .btn:hover{
+    background: #182B50;
+  }
+  
+  
+  .imgArea{
+    width:650px;
+    height:310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius:9px;
+  }
+  
+  .boxText{
+    width: 160px; min-height: 60px; background-color: #6b6b6b;
+    font-style: italic;
+    color: #fff;
+    border:4px;
+    border-radius: 11px;
+    border-color: #2c094d;
+    align-items: center;
+    text-align: center;
+    margin:20px;
+  }
+  #thbox{
+    border-radius: 11px;
+    width: 176px;
+    height: 190px;
+    
+  }
+  
+  #thbox2{
+    border-radius: 11px;
+    width: 176px;
+    height: 199px;
+    background-color: #283685;
+  }
+  
+  .cnt20{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  input{
+    text-align: center;
+    background-color: rgb(105, 104, 104);
+    color: rgb(0, 0, 0);
+    border: #2c094d 2px;
+    padding: 2px;
+    border-radius: 4px;
+    
+  }
+  
+  .boxCntr{
+    width:130px;
+    height:80px;
+    background-color: #283685;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-color: chocolate;
+    border-radius: 7px;
+  }
+  
+  
+  
+  
+  
+  .body{
+    display: flex;
+    justify-content: center;
+    margin:90px;
+  }
+  
+  
+  .body94{
+    display: flex;
+    justify-content: center;
+    margin:9px;
+  }
+  
+  
+  #sqbox{
+  background: linear-gradient(#594b74, #975c99);
+  width:110px;
+  height:40px;
+  border-radius:4px;
+  opacity: 0.5;
+  transition:0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  p{
+    text-align: center;
+    color: black;
+  }
+  
+  .rotate{
+  animation-name: rotate;
+  animation-duration: 0.5s;
+  }
+  
+  .rotate2{
+  animation-name: rotate2;
+  animation-duration: 0.5s;
+  }
+  
+  .rotate3{
+  animation-name: rotate3;
+  animation-duration: 0.5s;
+  }
+  
+  .rotate4{
+    animation-name: scale9;
+    animation-duration: 0.5s;
+    }
+  
+  @keyframes rotate{
+  from{ transform: rotate(0deg); }
+  to{ transform: rotate(10deg); }
+  }
+  
+  @keyframes rotate2{
+  from{ transform: rotate(10deg); }
+  to{ transform: rotate(-10deg); }
+  }
+  
+  @keyframes rotate3{
+  from{ transform: rotate(-10deg); }
+  to{ transform: rotate(0deg); }
+  }
+  
+  
+  
+  @keyframes scale9{
+  from{ transform: scale(0,1); }
+  to{ transform: scale(1,1); }
+  }
+  
+  .sqbox2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#fe002c;
+    width:210px;
+    height: 300px;
+    border-radius:4px;
+    opacity: 0.5;
+    transform: scale(1,1);
+    margin: 5px;
+    top:0px;
+  }
+  
+  .sqbox4{
+    width:900px;
+    height: 900px;
+    border-radius:4px;
+    opacity: 1;
+    animation: 22s linear 22s infinite running slidein;
+    animation-name: moveobjct;
+  }
+  
+  .sqbox9{
+    width:50px;
+    height:50px;
+  }
+  
+  @keyframes moveobjct{
+    from{ transform: translateY(-3000px); }
+    to{ transform: translateY(880px); }
+  }
+  
+  html, body {margin: 0; height: 100%; overflow: hidden}
+  
+  
+  
+  body.active-modal {
+    overflow-y: hidden;
+  }
+  
+  .btn-modal {
+    padding: 10px 20px;
+    display: block;
+    margin: 100px auto 0;
+    font-size: 18px;
+  }
+  
+  .modal9, .overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+  }
+  
+  .overlay {
+    background: rgba(49,49,49,0.8);
+  }
+  .modal-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.4;
+    background: #f1f1f1;
+    padding: 14px 28px;
+    border-radius: 3px;
+    max-width: 600px;
+    min-width: 300px;
+  }
+  
+  .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 7px;
+  }
+  
+
+
+  

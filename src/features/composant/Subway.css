@@ -1,0 +1,23 @@
+#object {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 11px;
+    background-color: blue;
+  }
+  body{
+    background-color: #171717
+  }
+  #page-container {
+    position: relative;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid white;
+    margin-top:40px;
+    border-radius: 4px;
+  }
